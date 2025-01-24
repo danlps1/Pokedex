@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/images/fundoTela.jpg") no-repeat center center;
+  background-size: cover;
+  font-family: "Oxanium", cursive;
+  font-size: 1rem;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.titulo {
+  text-align: center;
+  text-transform: capitalize;
+  position: absolute;
+  top: 69%;
+  left: 49%;
+  transform: translate(-60%, -50%);
+  width: 15%;
+  height: 7%;
+  color: white;
+  min-width: 140px;
+}
+
+.nome-pokemon {
+  text-align: center;
+  text-transform: capitalize;
+  position: absolute;
+  top: 58%;
+  left: 57%;
+  transform: translate(-60%, -50%);
+  width: 15%;
+  height: 7%;
+  color: #aaa;
+  min-width: 180px;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 420px;
+}
+
+.pokemon {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+.pokebola {
+  position: absolute;
+  top: 40.5%;
+  left: 50.4%;
+  transform: translate(-60%, -50%);
+  width: 260px;
+  height: 172px;
+  border-radius: 7px;
+  border: 1px solid black;
+  max-width: 57%;
+  max-height: 27%;
+}
+
+.pokeInput {
+  position: absolute;
+  top: 80%;
+  left: 52%;
+  transform: translate(-60%, -50%);
+  width: 49%;
+  height: 7%;
+  text-align: center;
+  border: 2px double black;
+  border-radius: 8px;
+  text-transform: unset;
+  font-family: "Oxanium", cursive;
+  font-size: 1rem;
+  min-width: 180px;
+}
+
